@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+/* all-buttons */
+button {
+  color: white;
+  font-weight: bold;
+  background-color: #ee4222;
+  border: none;
+  border-radius: 12px;
+  padding: 13px 28px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(227, 50, 18);
+  transition: 0.3s;
+}
+
+/* header-section */
+header {
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px 16px 16px;
+  position: fixed;
+  top: 0;
+}
+
+header img {
+  width: 280px;
+  height: 80px;
+}
+
+/* nav-menu */
+header ul {
+  display: flex;
+  gap: 36px;
+}
+
+header ul a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header ul a:hover {
+  color: yellowgreen;
+  transition: 0.4s;
+}
+
+/* background-img */
+.bg-image {
+  width: 100%;
+  height: 720px;
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+
+.bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* bg-image-text */
+.bg-img-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 545px;
+  align-items: center;
+  gap: 24px;
+}
+
+.bg-img-text p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bg-img-text ul {
+  display: flex;
+  gap: 16px;
+}
+
+.bg-img-text i {
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bg-img-text i:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/* we-are-miniclip */
+.info-page {
+  background-color: rgba(71, 106, 210);
+  width: 100%;
+  height: 460px;
+  color: white;
+  position: relative;
+}
+
+.info-page img {
+  width: 750px;
+  height: 340px;
+  position: absolute;
+  top: 60px;
+  left: 50px;
+}
+
+.we-are-miniclip {
+  text-align: right;
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  right: 24px;
+  top: 40px;
+}
+
+.we-are-miniclip h1 {
+  font-size: 40px;
+}
+
+.we-are-miniclip p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.we-are-miniclip button {
+  margin-top: 24px;
+}
+
+.page-purpose {
+  text-align: left;
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 345px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page-purpose p {
+  font-size: 26px;
+}
+
+.page-purpose p:last-child {
+  font-weight: bold;
+}
+
+/* whats-new-section */
+.whats-new {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.title {
+  color: white;
+  background-color: #ee4222;
+  padding: 13px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* news-cards */
+.news-card {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 60px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-card-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+  padding-left: 60px;
+  height: 100%;
+  width: 590px;
+  gap: 13px;
+}
+
+.news-card-text p {
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+}
+
+.news-card-text p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.news-img {
+  height: 100%;
+  width: 680px;
+}
+
+.news-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* reverse-news-card */
+#card1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#card1 .news-card-text {
+  text-align: left;
+  width: 645px;
+  padding-right: 80px;
+}
+
+#card2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#card2 .news-card-text {
+  text-align: left;
+  width: 645px;
+  padding-right: 80px;
+}
+
+/* careers-section */
+.careers {
+  width: 100%;
+  background: #ffd541 url(/assets/img/background/careers.f74e89b.jpg) 100% 100% no-repeat;
+  background-position: right -20% bottom;
+  background-size: 80% auto;
+  padding: 88px 0 88px 30px;
+}
+
+.careers-info {
+  text-align: left;
+  width: 100%;
+  padding-right: 680px;
+}
+
+.careers-info p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.careers-info p:first-child {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* location-section */
+.location {
+  width: 100%;
+  padding-right: 680px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.location p {
+  font-weight: bold;
+  line-height: 43px;
+}
+
+.location-links p {
+  font-size: 17px;
+}
+
+.location-links a {
+  color: black;
+}
+
+.location-places p {
+  font-size: 16px;
+  text-align: right;
+}
+
+/* location-button */
+#location-button {
+  background-color: black;
+  margin-top: 40px;
+}
+
+#location-button:hover {
+  background-color: rgb(227, 50, 18);
+  transition: 0.3s;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer img {
+  width: 330px;
+  height: 103px;
+}
+
+/* nav-menu */
+footer ul {
+  display: flex;
+  gap: 36px;
+}
+
+footer ul a {
+  font-size: 16px;
+}
+
+footer ul a:hover {
+  color: yellowgreen;
+  transition: 0.4s;
+}
+
+/* social-icons */
+.social-icons {
+  display: flex;
+  gap: 36px;
+}
+
+.social-icons i {
+  font-size: 26px;
+}
+
+.social-icons i:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+/* extra-informaton */
+.extra-info {
+  display: flex;
+  column-gap: 26px;
+  row-gap: 13px;
+  flex-wrap: wrap;
+  padding: 0 360px;
+  justify-content: center;
+}
+
+.extra-info a {
+  font-size: 13px;
+}
+
+.extra-info a:hover {
+  text-decoration: underline;
+}
+
+.extra-info p {
+  color: white;
+  font-size: 13px;
+}
